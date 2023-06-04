@@ -51,7 +51,6 @@ func main() {
 
 func HumanReadableTime(seconds int) string {
 	// your code here
-
 	humanReadableTime := ""
 
 	// Hours
