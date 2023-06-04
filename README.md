@@ -1,6 +1,6 @@
 # Codewars Go Solutions
 
-This project is an personal archive for Codewars problems and its solutions.
+This project is a personal archive for Codewars problems and its solutions.
 
 
 ## Details
