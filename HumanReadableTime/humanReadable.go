@@ -34,6 +34,7 @@ func main() {
 		{86399, "23:59:59"},
 		{86400, "24:00:00"},
 		{359999, "99:59:59"},
+		{360000, "Max time exceeded"},
 	}
 
 	for _, v := range arr {
@@ -51,6 +52,11 @@ func main() {
 
 func HumanReadableTime(seconds int) string {
 	// your code here
+
+	if seconds > 359999 {
+		return "Max time exceeded"
+	}
+
 	humanReadableTime := ""
 
 	// Hours
