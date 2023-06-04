@@ -1,13 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
-func main() {
-	fmt.Println(SumDigPow(12157692622039623503, 12157692622039625605))
-}
-
 func SumDigPow(a, b uint64) []uint64 {
 	var result []uint64
 

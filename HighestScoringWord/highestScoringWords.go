@@ -3,35 +3,7 @@ package main
 import (
 	"fmt"
 	"strings"
-
-	"github.com/fatih/color"
 )
-
-func main() {
-
-	arr := [...][2]string{
-		{"man i need a taxi up to ubud", "taxi"},
-		{"what time are we climbing up the volcano", "volcano"},
-		{"take me to semynak", "semynak"},
-		{"aa b", "aa"},
-		{"b aa", "b"},
-		{"bb d", "bb"},
-		{"d bb", "d"},
-		{"aaa b", "aaa"},
-	}
-
-	for _, v := range arr {
-		var input = v[0]
-		var output = v[1]
-		var result = High(input)
-		if result == output {
-			color.Green("PASS")
-		} else {
-			color.Red("Expected:", output)
-		}
-	}
-
-}
 
 func High(s string) string {
 	// your code here

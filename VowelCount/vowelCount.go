@@ -1,11 +1,5 @@
 package main
 
-import "fmt"
-
-func main() {
-	fmt.Println(GetCount("abracadabra"))
-}
-
 func GetCount(str string) (count int) {
 	// Enter solution here
 

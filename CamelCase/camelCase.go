@@ -2,31 +2,7 @@ package main
 
 import (
 	"strings"
-
-	"github.com/fatih/color"
 )
-
-func main() {
-	arr := [...][2]string{
-		{"the-stealth-warrior", "theStealthWarrior"},
-		{"The_Stealth_Warrior", "TheStealthWarrior"},
-		{"the-stealth_warrior", "theStealthWarrior"},
-		{"The_Stealth_Warrior", "TheStealthWarrior"},
-		{"The_Stealth-Warrior", "TheStealthWarrior"},
-		{"A-B-C", "ABC"},
-	}
-
-	for _, v := range arr {
-		var input = v[0]
-		var output = v[1]
-		var result = ToCamelCase(input)
-		if result == output {
-			color.Green("PASS")
-		} else {
-			color.Red("Expected: %s, got: %s and input was: %s", output, result, input)
-		}
-	}
-}
 
 func ToCamelCase(s string) string {
 	// your code

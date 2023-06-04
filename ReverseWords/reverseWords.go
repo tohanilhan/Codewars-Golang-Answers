@@ -2,31 +2,7 @@ package main
 
 import (
 	"strings"
-
-	"github.com/fatih/color"
 )
-
-func main() {
-	arr := [...][2]string{
-		{"Hey fellow warriors", "Hey wollef sroirraw"},
-		{"This is a test", "This is a test"},
-		{"This is another test", "This is rehtona test"},
-		{"You are almost to the last test", "You are tsomla to the last test"},
-		{"Just kidding there is still one more", "Just gniddik ereht is llits one more"},
-		{"Seriously this is the last one", "ylsuoireS this is the last one"},
-	}
-
-	for _, v := range arr {
-		var input = v[0]
-		var output = v[1]
-		var result = SpinWords(input)
-		if result == output {
-			color.Green("PASS")
-		} else {
-			color.Red("Expected:", output)
-		}
-	}
-}
 
 func SpinWords(str string) string {
 	words := strings.Split(str, " ")
