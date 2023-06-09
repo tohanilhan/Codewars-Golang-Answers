@@ -9,6 +9,9 @@ Each folder contains different problems. In the readme file of each folder, you 
 
 ## Questions
 
+This repo contains the following questions and it will be updated regularly.
+
+
 | Kata       | Answer  |
 |----------------|----------------|
 |                |                |
