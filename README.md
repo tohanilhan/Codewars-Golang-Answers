@@ -24,6 +24,6 @@ This repo contains the following questions and it will be updated regularly.
 [7.Human Readable Time](https://www.codewars.com/kata/52685f7382004e774f0001f7) | [Link](https://github.com/tohanilhan/Codewars-Golang-Answers/blob/main/HumanReadableTime/humanReadable.go) | 
 [8.Sum of Digits/Digital Root](https://www.codewars.com/kata/541c8630095125aba6000c00) | [Link](https://github.com/tohanilhan/Codewars-Golang-Answers/blob/main/SumOfDigits-DigitalRoot/digitalRoot.go) | 
 [9.Duplicate Encoder](https://www.codewars.com/kata/54b42f9314d9229fd6000d9c) | [Link](https://github.com/tohanilhan/Codewars-Golang-Answers/blob/main/DuplicateEncoder/duplicateEncoder.go) | 
-
+[10.Take a Ten Minutes Walks](https://www.codewars.com/kata/54da539698b8a2ad76000228) | [Link](https://github.com/tohanilhan/Codewars-Golang-Answers/blob/main/TenMinutesWalk/tenMinutesWalk.go) | 
 
 
