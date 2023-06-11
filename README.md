@@ -25,5 +25,7 @@ This repo contains the following questions and it will be updated regularly.
 [8.Sum of Digits/Digital Root](https://www.codewars.com/kata/541c8630095125aba6000c00) | [Link](https://github.com/tohanilhan/Codewars-Golang-Answers/blob/main/SumOfDigits-DigitalRoot/digitalRoot.go) | 
 [9.Duplicate Encoder](https://www.codewars.com/kata/54b42f9314d9229fd6000d9c) | [Link](https://github.com/tohanilhan/Codewars-Golang-Answers/blob/main/DuplicateEncoder/duplicateEncoder.go) | 
 [10.Take a Ten Minutes Walks](https://www.codewars.com/kata/54da539698b8a2ad76000228) | [Link](https://github.com/tohanilhan/Codewars-Golang-Answers/blob/main/TenMinutesWalk/tenMinutesWalk.go) | 
+[11.Not Very Secure](https://www.codewars.com/kata/526dbd6c8c0eb53254000110) | [Link](https://github.com/tohanilhan/Codewars-Golang-Answers/blob/main/NotVerySecure/notVerySecure.go) | 
+
 
 
