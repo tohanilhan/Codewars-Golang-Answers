@@ -14,7 +14,6 @@ This repo contains the following questions and it will be updated regularly.
 
 | Kata       | Answer  |
 |----------------|----------------|
-|                |                |
 [1.Stop gninnipS My sdroW](https://www.codewars.com/kata/5264d2b162488dc400000001) | [Link](https://github.com/tohanilhan/Codewars-Golang-Answers/blob/main/ReverseWords/reverseWords.go) | 
 [2.Vowel Count](https://www.codewars.com/kata/54ff3102c1bad923760001f3) | [Link](https://github.com/tohanilhan/Codewars-Golang-Answers/blob/main/VowelCount/vowelCount.go) | 
 [3.Take a Number And Sum Its Digits Raised To The Consecutive Powers And ....¡Eureka](https://www.codewars.com/kata/5626b561280a42ecc50000d1) | [Link](https://github.com/tohanilhan/Codewars-Golang-Answers/blob/main/Eureka/eureka.go) | 
