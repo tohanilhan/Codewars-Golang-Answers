@@ -1,4 +1,4 @@
-package main
+package kata
 
 func IsValidWalk(walk []rune) bool {
 	// Enter solution here

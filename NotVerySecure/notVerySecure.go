@@ -1,4 +1,4 @@
-package main
+package kata
 
 func alphanumeric(str string) bool {
 

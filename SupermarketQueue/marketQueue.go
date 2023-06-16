@@ -1,4 +1,4 @@
-package main
+package kata
 
 func QueueTime(customers []int, n int) int {
 	// If there are no customers or no tills, return 0

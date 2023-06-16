@@ -1,4 +1,4 @@
-package main
+package kata
 
 func SumDigPow(a, b uint64) []uint64 {
 	var result []uint64
