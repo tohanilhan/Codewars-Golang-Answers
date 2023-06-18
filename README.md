@@ -27,3 +27,4 @@ This repo contains the following questions and it will be updated regularly.
 [11.Not Very Secure](https://www.codewars.com/kata/526dbd6c8c0eb53254000110) | [Link](https://github.com/tohanilhan/Codewars-Golang-Answers/blob/main/NotVerySecure/notVerySecure.go) | 
 [12.Number of trailing zeros of N!](https://www.codewars.com/kata/52f787eb172a8b4ae1000a34) | [Link](https://github.com/tohanilhan/Codewars-Golang-Answers/blob/main/TrailingZeros/trailingZeros.go) | 
 [13.Sum Of Intervals](https://www.codewars.com/kata/52b7ed099cdc285c300001cd) | [Link](https://github.com/tohanilhan/Codewars-Golang-Answers/blob/main/SumOfIntervals/sumOfIntervals.go) | 
+[14.Is my friend cheating?](https://www.codewars.com/kata/5547cc7dcad755e480000004) | [Link](https://github.com/tohanilhan/Codewars-Golang-Answers/blob/main/IsMyFriendCheating/isMyFriendCheating.go) | 
