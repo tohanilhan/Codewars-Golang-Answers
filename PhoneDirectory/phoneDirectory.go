@@ -1,21 +1,20 @@
 package kata
 
 import (
+	"fmt"
 	"regexp"
 	"strings"
 )
 
 func Phone(dir, num string) string {
 	// your code:
-
-	r := regexp.MustCompile(`\d{1,2}-\d{3}-\d{3}-\d{4}`)
-
-	if !r.MatchString(num) {
+	// if the number is not in the directory, return an error
+	if !regexp.MustCompile("[+]" + num).MatchString(dir) {
 		return "Error => Not found: " + num
 	}
 
 	// count the number of times the number appears in the directory
-	count := strings.Count(dir, num)
+	count := strings.Count(dir, "+"+num)
 
 	// if the number appears more than once, return an error
 	if count > 1 {
@@ -28,17 +27,20 @@ func Phone(dir, num string) string {
 	// Iterate through the directory
 	for _, entry := range dirArr {
 		// Check if the entry contains the number
-		if regexp.MustCompile(num).MatchString(entry) {
+		fmt.Println(entry)
+		fmt.Println(num)
+
+		if regexp.MustCompile("[+]" + num).MatchString(entry) {
 
 			// Extract the name
 			name := regexp.MustCompile(`<(.+)>`).FindStringSubmatch(entry)[1]
 
 			// Remove the name from the entry
 			entry = regexp.MustCompile(`<(.+)>`).ReplaceAllString(entry, "")
-
+			fmt.Println(entry)
 			// remove the number from the entry
-			entry = regexp.MustCompile(num).ReplaceAllString(entry, "")
-
+			entry = regexp.MustCompile("[+]"+num).ReplaceAllString(entry, "")
+			fmt.Println(entry)
 			// extract the address
 			address := regexp.MustCompile(`[^\w\s.-]`).ReplaceAllString(entry, " ")
 
