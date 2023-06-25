@@ -1,7 +1,6 @@
 package kata
 
 import (
-	"fmt"
 	"regexp"
 	"strings"
 )
@@ -27,8 +26,6 @@ func Phone(dir, num string) string {
 	// Iterate through the directory
 	for _, entry := range dirArr {
 		// Check if the entry contains the number
-		fmt.Println(entry)
-		fmt.Println(num)
 
 		if regexp.MustCompile("[+]" + num).MatchString(entry) {
 
@@ -37,10 +34,10 @@ func Phone(dir, num string) string {
 
 			// Remove the name from the entry
 			entry = regexp.MustCompile(`<(.+)>`).ReplaceAllString(entry, "")
-			fmt.Println(entry)
+
 			// remove the number from the entry
 			entry = regexp.MustCompile("[+]"+num).ReplaceAllString(entry, "")
-			fmt.Println(entry)
+
 			// extract the address
 			address := regexp.MustCompile(`[^\w\s.-]`).ReplaceAllString(entry, " ")
 
