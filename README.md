@@ -1,16 +1,8 @@
 # Codewars Go Solutions
-
-This project is a personal archive for Codewars problems and its solutions.
-
-
-## Details
-
-Each folder contains different problems. In the readme file of each folder, you can find the problems and its details.
+This project serves as a personal archive for Codewars problems and their solutions. It contains various folders, each representing a different problem. The readme file in each folder provides details about the problem and its solution.
 
 ## Questions
-
-This repo contains the following questions and it will be updated regularly.
-
+The repository currently includes the following questions, and it will be regularly updated with new additions.
 
 | Kata                                                                                                                                          | Kata Level | Answer                                                                                                                         |
 |-----------------------------------------------------------------------------------------------------------------------------------------------|------------|--------------------------------------------------------------------------------------------------------------------------------|
